@@ -4,6 +4,6 @@ contador=0
 resultado=0
 
 while contador<=expoente:
-    resultado=resultado+base*base
-    contador=contador+1
-print(resultado)
+        n1=n1+n1
+        contador=contador+1
+print(n1)
