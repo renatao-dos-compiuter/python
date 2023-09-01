@@ -5,7 +5,12 @@ contador2=n1
 
 if n2%n1==0:
     print(0)
-    while contador<=n2:
+    while n1<=n2:
+        print(n1)
+        n1=n1+contador2
+        contador=contador+1
+else:
+    while n1<n2:
         print(n1)
         n1=n1+contador2
         contador=contador+1
