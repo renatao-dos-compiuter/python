@@ -1,3 +1,5 @@
+#ex2: Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números ímpares.
+
 contador=1
 par=0
 impar=0
@@ -12,3 +14,4 @@ while contador<=10:
         contador=contador+1
 print(f"Números pares: {par}")
 print(f"Números ímpares: {impar}")
+

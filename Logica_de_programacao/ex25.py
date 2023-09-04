@@ -1,3 +1,5 @@
+#ex4: Implementar uma função que escreva no terminal os números naturais múltiplos de número informado, de 0 até outro número informado.
+
 n1=int(input("Digite o primeiro número: "))
 n2=int(input("Digite o segundo número: "))
 contador=1
