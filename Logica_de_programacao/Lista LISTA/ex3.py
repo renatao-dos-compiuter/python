@@ -1,5 +1,6 @@
-limite= int(input("Infrome o número limite: "))
+limite= int(input("Informe o número limite: "))
+lista=[]
 
-lista= range(limite, 0, -1)
-for i in lista:
-    print(i)
+for i in range(limite, 0, -1):
+    lista.append(i)
+print(lista)

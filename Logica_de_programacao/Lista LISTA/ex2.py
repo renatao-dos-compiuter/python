@@ -1,5 +1,6 @@
 limite= int(input("Infrome o número limite: "))
+lista=[]
 
-lista= range(1, limite+1)
-for i in lista:
-    print(i)
+for i in range(1,limite+1):
+    lista.append(i)
+print(lista)
