@@ -6,5 +6,5 @@ for contador in range (1,6):
     lista_altura.insert(0,altura)
     idade=float(input(f"Digite a idade da {contador}° pessoa: "))
     lista_idade.insert(0,idade)
-print(lista_altura)
-print(lista_idade)
+print(f"Lista da altura: {lista_altura}")
+print("lista da idade: {lista_idade}")
