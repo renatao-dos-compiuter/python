@@ -1,9 +1,9 @@
-# Implementar uma função para calcular o salário líquido de um funcionário, a partir de seu salário base,
-# do bônus mensal (em %) e do total de descontos.
-def salario_com_bonus (x):
-    porcentagem=x*(bonus/100)
-    return porcentagem
+def total (x):
+    total=x+(salario*(bonus/100)-desconto)
+    return total
 
+salario= int(input("Salário: "))
+bonus=int(input("Bônus (%): "))
+desconto=int(input("Desconto: "))
 
-salario_com_bonus=salario_com_bonus(int(input("Salário: ")))
-bonus=int(input("Bônus: "))
+print(f"Salário lpiquido: {total(salario)}")
