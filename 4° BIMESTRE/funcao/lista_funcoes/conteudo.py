@@ -14,3 +14,7 @@ for i in range (1,quant+1):
 lista_notas.sort()
 print(f"Lista de notas: {lista_notas}")
 print(f"Média= {soma/quant}")
+
+# lista.append() =  ADICIONA ITEMS NO FINAL DA LISTA
+# lista_insert(posição, valor) = ADICIONA UM ITEM EM UMA POSIÇÃO ESPECÍFICA (O NÚMERO DA POSIÇÃO SOMEÇA NO 0)
+# lista.del(posição =  DELETA UM ITEM EM UMA POSIÇÃO ESPECÍDICA
